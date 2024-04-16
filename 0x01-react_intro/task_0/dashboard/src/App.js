@@ -12,11 +12,9 @@ function App() {
 
 
       <div className="App-body">
-        <body>
             <p>
               <b>Login to access the full dashboard</b>
             </p>
-        </body>
       </div>
 
       <div className="App-footer">

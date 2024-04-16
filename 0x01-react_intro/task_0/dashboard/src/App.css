@@ -1,0 +1,49 @@
+.App-header {
+  display: inline-flex;
+  color: red;
+}
+
+.h1-header {
+  padding-top: 15px;
+}
+.App-logo {
+  height: 100px;
+  /* Specifies under what circumstances a given element
+  can be the target element for a pointer event. */
+  pointer-events: none;
+}
+
+.App-body {
+  /* flex-grow: 1; */
+  border-top: red solid;
+  border-bottom-width: 10px;
+  height: 100%;
+  padding-bottom: 33%;
+}
+
+.App-footer {
+  border-top: red solid;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+}
+
+/* Define styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 765px) {
+  .App-body {
+    /* border-top: red solid; */
+    border-bottom-width: 10px;
+    padding-bottom: 67.5%;
+  }
+}
+
+/* Define styles for smaller screens (e.g., mobile devices) */
+@media (min-width: 765px) and (max-width: 960px) {
+  .App-body {
+    /* border-top: red solid; */
+    border-bottom-width: 10px;
+    padding-bottom: 44.5%;
+  }
+}
+
+

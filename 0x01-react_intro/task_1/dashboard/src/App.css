@@ -25,7 +25,8 @@
   border-top: red solid;
   /* position: absolute; */
   bottom: 0;
-  width: 100%;
+  justify-content: center;
+  display: flex;
 }
 
 /* Define styles for smaller screens (e.g., mobile devices) */

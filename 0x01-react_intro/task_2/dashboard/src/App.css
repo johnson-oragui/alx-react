@@ -1,0 +1,46 @@
+.App-header {
+  display: flex;
+  color: #e1484c;
+}
+
+
+.App-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.App-body {
+  border-top: red solid;
+  border-bottom: red solid;
+  border-bottom-width: 4px;
+  border-top-width: 4px;
+  padding-bottom: 33%;
+}
+
+.App-body p {
+  padding: 10px 15px;
+}
+
+.App-footer {
+  bottom: 0;
+  justify-content: center;
+  display: flex;
+}
+
+/* Define styles for smaller screens */
+@media (max-width: 765px) {
+  .App-body {
+    border-bottom-width: 4px;
+    padding-bottom: 67.5%;
+  }
+}
+
+/* Define styles for smaller screens */
+@media (min-width: 765px) and (max-width: 960px) {
+  .App-body {
+    border-bottom-width: 4px;
+    padding-bottom: 44.5%;
+  }
+}
+
+
